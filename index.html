@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./custom.css">
+    <title>El Soñador</title>
+</head>
+
+<body>
+    <header>
+        <div class="overlay"></div>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><span class="brand">El Soñador</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#explore">Explore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal">Book</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="home" class="header-banner d-flex justify-content-center align-items-center">
+            <div class="header-content container text-white text-center">
+                <h3 class="text-uppercase display-5 m-0">Spanish dream with</h3>
+                <h1 class="text-uppercase display-1">El Soñador</h1>
+                <p class="d-none d-md-block">Southern Europe best trip experience</p>
+                <button type="button" class="btn btn-lg btn-primary text-uppercase px-5"  data-bs-toggle="modal" data-bs-target="#modal">
+                    Book now
+                </button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="about">
+            <div class="container p-3">
+                <h3 class="text-center text-uppercase">Do you wanna explore whole country with full experience? You
+                    don't have to dream about it. Experience it!</h3>
+                <div class="row">
+                    <div class="col-12 col-md-6 d-flex align-items-stretch p-3">
+                        <div class="card">
+                            <img class="card-img-top" src="./images/experience.jpg" alt="nature">
+                            <div class="card-body text-center d-flex flex-column">
+                                <h5 class="card-title text-uppercase text-primary">Experience</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                                    repudiandae a sapiente beatae ullam aliquam. Iure ducimus voluptates eveniet
+                                    distinctio!</p>
+                                <a href="#" class="btn btn-lg btn-outline-primary mt-auto">Check it out</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex align-items-stretch p-3">
+                        <div class="card">
+                            <img class="card-img-top" src="./images/explore.jpg" alt="city">
+                            <div class="card-body text-center d-flex flex-column">
+                                <h5 class="card-title text-uppercase text-primary">Explore</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
+                                    officiis! Optio reprehenderit fugiat deserunt fugit. Itaque asperiores deleniti
+                                    praesentium blanditiis.</p>
+                                <a href="#" class="btn btn-lg btn-outline-primary mt-auto">Check it out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-3 p3">
+                <h2 class="text-center text-uppercase mb-4">What you will experience</h2>
+                <ul class="row list-unstyled">
+                    <li class="col-12 col-md-4 custom__features-item text-center">
+                        <img src="./images/city.png" alt="Amenities You Want" class="d-none d-md-block img-fluid">
+                        <h3 class="text-center">Heartwarming cities</h3>
+                        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate similique
+                            sunt laborum repudiandae sed placeat reiciendis delectus mollitia, quas adipisci, vel nemo
+                            sit porro deleniti.</p>
+                    </li>
+                    <li class="col-12 col-md-4 custom__features-item text-center">
+                        <img src="./images/mountains.png" alt="Amenities You Want" class="d-none d-md-block img-fluid">
+                        <h3 class="text-center">Breathtaking nature</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aspernatur
+                            obcaecati recusandae eum vitae quae, magnam, id necessitatibus molestiae quas repudiandae
+                            modi! Fugit, eveniet. Perspiciatis.</p>
+                    </li>
+                    <li class="col-12 col-md-4 custom__features-item text-center">
+                        <img src="./images/ocean.png" alt="Amenities You Want" class="d-none d-md-block img-fluid">
+                        <h3 class="text-center">Mindblowing sea</h3>
+                        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis recusandae ea
+                            facilis, cumque aliquam iusto facere aliquid veritatis? Incidunt vero quasi commodi,
+                            doloribus suscipit veniam!</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="explore">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-12 col-lg-8 pb-3">
+                        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./images/carousel1.jpg" class="d-block w-100" alt="¨spain1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel2.jpg" class="d-block w-100" alt="spain2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/carousel3.jpg" class="d-block w-100" alt="spain3">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <h3 class="text-uppercase">Con El Soñador...</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, molestias!
+                            Suscipit eos, pariatur dolorem quia, a dolore totam esse, reiciendis eaque exercitationem in
+                            accusamus labore rem? Ducimus consectetur dolores, inventore iure cupiditate ex dolorem quas
+                            nisi, sint non voluptatem similique saepe sequi? Harum, voluptas veniam.</p>
+                        <a href="#" class="see-link text-primary">Click here for more...<i
+                                class="ml-1 fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-12 col-lg-4 pb-3">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d384.97121636840365!2d-0.37827316508177233!3d39.4745305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4d912b9c79%3A0x116e141854b4d325!2sPl.%20del%20Dr.%20Collado%2C%206%2C%20Ciutat%20Vella%2C%2046001%20Val%C3%A8ncia%2C%20%C5%A0pan%C4%9Blsko!5e0!3m2!1scs!2scz!4v1720781874996!5m2!1scs!2scz"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="col-12 col-lg-3 pb-3">
+                        <p>
+                            <strong>El Soñador</strong><br>
+                            Pl. del Dr. Collado, 6<br>
+                            Valencia<br>
+                            España
+                        </p>
+                        <div>
+                            <a href="#"><i class="bi bi-facebook mx-1"></i></a>
+                            <a href="#"><i class="bi bi-twitter-x mx-1"></i></a>
+                            <a href="#"><i class="bi bi-whatsapp mx-1"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Your message</label>
+                                <textarea class="form-control" id="message" rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="foot">
+            <div>
+                &copy;veetek 2024
+            </div>
+        </div>
+    </footer>
+    <!-- modal -->
+    <div class="modal fade" id="modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 text-primary" id="staticBackdropLabel">Book your journey</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="book-email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="book-email" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="book-name" class="form-label">Your name</label>
+                    <input type="text" class="form-control" id="book-name" placeholder="Joanne English">
+                </div>
+                <div class="row mb-3"">
+                    <div class="col-6">
+                        <label for="book-from" class="form-label">From</label>
+                        <input type="date" class="form-control" id="book-from" placeholder="name@example.com">
+                    </div>
+                    <div class="col-6">
+                        <label for="book-to" class="form-label">To</label>
+                        <input type="date" class="form-control" id="book-to" placeholder="name@example.com">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="book-number" class="form-label">Number of travellers</label>
+                    <input type="number" class="form-control" id="book-number" placeholder="1" min="1" max="20">
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Book</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
