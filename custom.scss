@@ -22,11 +22,8 @@
 // Include any default variable overrides here (though functions won't be available)
 $primary: rgb(255, 145, 0);
 
-
-
 @import "./node_modules/bootstrap/scss/bootstrap";
-@import "./bootstrap-icons.min.css";
-
+@import "./node_modules/bootstrap-icons/font/bootstrap-icons.scss";
 
 // Then add additional custom code here
 body {
